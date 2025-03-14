@@ -1,0 +1,15 @@
+{
+  "version": 2,
+  "builds": [
+    {
+      "src": "api/scrapeMobileLegends.js",
+      "use": "@vercel/node"
+    }
+  ],
+  "routes": [
+    {
+      "src": "/api/scrapeMobileLegends",
+      "dest": "/api/scrapeMobileLegends.js"
+    }
+  ]
+}
